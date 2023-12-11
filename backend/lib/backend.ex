@@ -1,4 +1,6 @@
 defmodule Backend do
+  alias Backend.Stuff
+
   @moduledoc """
   Documentation for `Backend`.
   """
@@ -13,6 +15,6 @@ defmodule Backend do
 
   """
   def hello do
-    :world
+    Stuff.things()
   end
 end
